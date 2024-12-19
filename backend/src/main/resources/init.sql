@@ -1,0 +1,8 @@
+CREATE DATABASE awer_db;
+
+USE awer_db;
+
+CREATE TABLE task (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255) NOT NULL
+);
